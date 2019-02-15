@@ -1,7 +1,7 @@
 <?php
 
 	$details = R::find('about');
-echo "<h1>Test1</h1>";
+
 	$aboutName = $details[1]["name"];
 	$aboutDescription = $details[1]["description"];
 

@@ -1,7 +1,7 @@
 <?php 
 require "config.php";
 require "db.php";
-echo "<h1>Test</h1>";
+
 //Роутер
 $uri = rtrim( $_SERVER["REQUEST_URI"], "/");
 $uri = substr( filter_var($uri, FILTER_SANITIZE_URL), 1);
